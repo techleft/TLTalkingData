@@ -17,7 +17,7 @@
     "git": "https://github.com/techleft/TLTalkingData.git",
     "tag":"0.0.1"
   },
-  "source_files": "*.h",
+  "source_files": "TalkingDataSDK/*.h",
   "frameworks": [
   	"Security",
     "CoreTelephony",
