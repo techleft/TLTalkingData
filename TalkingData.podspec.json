@@ -1,0 +1,34 @@
+{
+  "name": "TLTalkingData",
+  "version": "0.0.1",
+  "summary": "iOS平台集成 TalkingData SDK",
+  "homepage": "https://www.talkingdata.com/products.jsp?languagetype=zh_cn",
+  "license": {
+    "type": "MIT",
+    "text": "                                                   Copyright©2016 TalkingData  版权所有\n"
+  },
+  "authors": {
+    "openapi": "support@tendcloud.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/techleft/TLTalkingData.git",
+    "tag":"0.0.1"
+  }
+  },
+  "source_files": "*.h",
+  "frameworks": [
+  	"Security",
+    "CoreTelephony",
+    "CoreMotion",
+    "SystemConfiguration",
+    "AdSupport"
+  ],
+  "libraries": [
+    "bz"
+  ],
+  "vendored_libraries": "libTalkingData.a",
+  "pod_target_xcconfig": "{ 'OTHER_LDFLAGS' => '-lObjC' }"
+}
