@@ -16,7 +16,6 @@
   "source": {
     "git": "https://github.com/techleft/TLTalkingData.git",
     "tag":"0.0.1"
-  }
   },
   "source_files": "*.h",
   "frameworks": [
@@ -30,5 +29,5 @@
     "bz"
   ],
   "vendored_libraries": "libTalkingData.a",
-  "pod_target_xcconfig": "{ 'OTHER_LDFLAGS' => '-lObjC' }"
+  "pod_target_xcconfig": { "OTHER_LDFLAGS" => "-lObjC" }
 }
