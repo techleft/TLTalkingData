@@ -1,6 +1,6 @@
 {
   "name": "TLTalkingData",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "iOS平台集成 TalkingData SDK",
   "homepage": "https://www.talkingdata.com/products.jsp?languagetype=zh_cn",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/techleft/TLTalkingData.git",
-    "tag":"0.0.1"
+    "tag":"0.0.2"
   },
   "requires_arc": true,
   "public_header_files": "TalkingDataSDK/TalkingData.h",
